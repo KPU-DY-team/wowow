@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+    <string name="app_name">LoginTest</string>
+
+    <string name="login_msg">로그인을 해주세요</string>
+
+    <string name="login_id">아이디 : </string>
+
+    <string name="login_pw">비밀번호 : </string>
+
+    <string name="login_btn">로그인</string>
+
+    <string name="web_btn">웹뷰</string>
+
+</resources>

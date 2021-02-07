@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+
+    android:layout_height="fill_parent"
+
+    android:orientation="vertical" >
+
+
+
+    <TextView
+
+        android:id="@+id/text_msg"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:text="@string/login_msg" />
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+
+            android:text="@string/login_id"
+
+            android:layout_width="100dip"
+
+            android:layout_height="wrap_content"
+
+            />
+
+        <EditText
+
+            android:id="@+id/edit_id"
+
+            android:inputType="text"
+
+            android:layout_width="200dip"
+
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+
+            android:text="@string/login_pw"
+
+            android:layout_width="100dip"
+
+            android:layout_height="wrap_content"
+
+            />
+
+        <EditText
+
+            android:id="@+id/edit_pw"
+
+            android:inputType="textPassword"
+
+            android:layout_width="200dip"
+
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+
+        android:orientation="horizontal"
+
+        android:layout_width="fill_parent"
+
+        android:layout_height="wrap_content"
+
+        android:gravity="center_horizontal"
+
+        >
+
+        <Button
+
+            android:id="@+id/btn_login"
+
+            android:layout_width="100dip"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/login_btn"
+
+            />
+
+        <Button
+
+            android:id="@+id/btn_web"
+
+            android:layout_width="100dip"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/web_btn"
+
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
+
+
+
+
+
+
+
+
+
